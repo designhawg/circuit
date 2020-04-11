@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6    
+    {margin:0;padding:0}
+h1,h2,h3,h4,h5,h6
+    {font-size:100%;font-weight:normal}
+ul
+    {list-style:none}
+button,input,select,textarea
+    {margin:0}
+html
+    {box-sizing:border-box}
+*,*::before,*::after
+    {box-sizing:inherit}
+img,video
+    {height:auto;max-width:100%}
+iframe
+    {border:0}
+table
+    {border-collapse:collapse;border-spacing:0}
+td,th
+    {padding:0}
+td:not([align]),th:not([align])
+    {text-align:left}
+
+
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #6A00F0;
+    --secondary-color: #08A333;
+    --dark-grey: #777;
+    --light-grey: #eee;
+    font-size: 10px;
+
+}
+
+header {
+    /* background-color: var(--light-grey); */
+    overflow: hidden;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    padding: 5px 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        text-decoration: none;
+    }
+}
+
+nav li {
+    align-self: center;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    padding-bottom: 3px;
+    border-bottom: 5px solid var(--primary-color);
+}
+
+nav div {
+    display: flex;
+}
+
+nav h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    align-self: center;
+    display: none;
+}
+
+nav img {
+    width: 100px;
+}
+
+.lightWeight {
+    font-weight: 100;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 5%;
+    width: 1440px;
+}
+
+@media all and (max-width: 1200px) {
+    .hero {
+        display: flex;
+        padding: 50px 5% 0 5%;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.hero-headline {
+    font-size: 7.2rem;
+    font-weight: 800;
+    letter-spacing: -3px;
+}
+
+.hero-text {
+    width: 30%;
+    float: left;
+}
+
+@media all and (max-width: 768px) {
+    .hero-text {
+        width: 100%;
+        float: left;
+    }
+}
+
+.hero h2 {
+    font-size: 4.8rem;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.hero h3 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-top: 2rem;
+}
+
+.hero-img {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    float: right;
+    background-color: var(--primary-color);
+    background-image: url('../images/cookcountycourts.jpg');
+    background-blend-mode: screen;
+    background-position: 40% 20%;
+    background-size: 110%;
+    margin-top: 50px;
+}
+
+@media all and (min-width: 768px) {
+    .hero-img {
+        height: 400px;
+        width: 60%;
+        overflow: hidden;
+        float: right;
+        background-blend-mode: screen;
+        background-position: 40% 20%;
+        background-size: 110%;
+        margin-top: 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .hero-img {
+        height: 450px;
+        width: 65%;
+        overflow: hidden;
+        float: right;
+        background-blend-mode: screen;
+        background-position: 40% 20%;
+        background-size: 110%;
+    }
+}
+
+.promo-teams {
+    margin: 5rem 0 20rem 0;
+    height: 100px;
+    width: 100%;
+    /* background-color: var(--primary-color); */
+}
+
+@media all and (max-width: 1200px) {
+    .promo-teams {
+        margin: 5rem 0 20rem 0;
+        height: 100px;
+        padding: 50px 5% 0 5%;
+        width: 100%;
+    }
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: .5rem;
+}
+
+.teams a {
+    /* width: 20%; */
+    align-self: center;
+    opacity: .4;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.teams a:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.label {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 2px;
+    border-bottom: 5px solid #333;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+
+.feature-story {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.feature-story h2 {
+    font-size: 5.4rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -1px;
+    margin-bottom: 1rem;;
+}
+
+.feature-story h3 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -.5px;
+}
