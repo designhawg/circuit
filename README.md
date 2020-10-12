@@ -10,6 +10,8 @@
 
 This project was built using Gatsby.js in collaboration with the Chicago Reporter, Better Government Association, and Injustice Watch.
 
+Built with Gatsby, Google Sheets, and Sheety.
+
 Just the instructions below to clone and preview this site.
 
 ## 🚀 Quick start
