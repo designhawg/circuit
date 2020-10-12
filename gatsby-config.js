@@ -13,6 +13,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-rest-api`,
+      options: {
+        endpoints: [
+          "https://api.sheety.co/6046887e0770da7b870275652c7d60f0/circuitCms/home"
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
