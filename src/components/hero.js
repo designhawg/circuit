@@ -9,7 +9,7 @@ const Hero = ({ siteTitle }) => (
         <div className="hero-text">
             <h1 className="hero-headline"><span className="lightWeight">The</span>Circuit</h1>
             <h2>Decoding <br/>the Cook County <br/>Court System</h2>
-            <h3>Subhed style for use in associated packages. Diam, magna sit augue nec. Lacus pretium sed lacinia.</h3>
+            <h3>The Circuit is a multi-yearlong collaborative journalism project focused on investigative and revealing the inner workings of the Cook County Circuit Court system.</h3>
         </div>
         <div className="hero-img">
         </div>

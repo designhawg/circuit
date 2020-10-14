@@ -32,6 +32,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <footer>
+        <div className="contain">
+          <h5 className="label">AN INVESTIGATIVE JOURNALISM COLLABORATION</h5>
+        </div>
       </footer>
     </>
   )
