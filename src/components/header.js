@@ -18,9 +18,7 @@ const Header = ({ siteTitle }) => (
         <h1><span className="lightWeight">The</span>Circuit</h1>
       </div>
       <ul>
-        <li><Link>English</Link> / <Link>Spanish</Link></li>
-        <li><Link>Projects</Link></li>
-        <li><Link>Applications</Link></li>
+        <li><Link to="/">English</Link> / <Link to="es">Spanish</Link></li>
         <li><Link>About The Circuit</Link></li>
 
 
