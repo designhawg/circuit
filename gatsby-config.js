@@ -3,7 +3,7 @@ module.exports = {
     title: `TheCircuit`,
     description: `The Circuit is a multi-yearlong collaborative journalism project focused on investigating and revealing the inner workings of the Cook County Circuit Court system.`,
     author: `@bettergov`,
-    image: `https://circuitchicago.s3.us-east-2.amazonaws.com/Placeholder-Image.jpg`,
+    image: `src/images/OG_card3.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
