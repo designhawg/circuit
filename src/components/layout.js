@@ -34,6 +34,23 @@ const Layout = ({ children }) => {
       <footer>
         <div className="contain">
           <h5 className="label">AN INVESTIGATIVE JOURNALISM COLLABORATION</h5>
+          <div className="footerOutlets">
+            <a href="http://www.apple.com"> 
+              <img title="Better Government Association" alt="Better Government Association" src={require('../images/bga_invert.jpg')}/>
+            </a>
+            <a href="http://www.apple.com"> 
+              <img title="Chicago Reporter" alt="Chicago Reporer" src={require('../images/reporter.jpg')}/>
+            </a>
+            <a href="http://www.apple.com"> 
+              <img title="Injustice Watch" alt="Injustice Watch" src={require('../images/injustice.jpg')}/>
+            </a>
+            <a href="http://www.apple.com"> 
+              <img title="Datamade" alt="Datamade" src={require('../images/datamade.jpg')}/>
+            </a>
+            <a href="http://www.apple.com"> 
+              <img title="Harris Public Policy" alt="Harris Public Policy" src={require('../images/harris.jpg')}/>
+            </a>
+          </div>
         </div>
       </footer>
     </>

@@ -333,6 +333,10 @@ nav img {
         margin: 100px 0 0 0;
     }
 
+    .contain {
+        padding: 0 5%;
+    }
+
     .feature-story h2 {
         font-size: 4.8rem;
     }
@@ -349,6 +353,9 @@ nav img {
         padding: 0 0 0 0;
         grid-gap: 30px;
         margin: 100px 0 0 0;
+    }
+    .contain {
+        padding: 0 0 0 0;
     }
 }
 
@@ -469,7 +476,54 @@ button:hover {
 footer {
     background-color: #000;
     color: #fff;
-    height: 30rem;
     margin-top: 100px;
+    padding: 2rem 0 20rem 0;
     width: 100%;
+}
+
+.footerOutlets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.footerOutlets a img {
+    height: 30px;
+    margin-top: 1rem;
+}
+
+.footerOutlets a img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+@media all and (min-width: 768px) {
+    footer {
+        background-color: #000;
+        color: #fff;
+        margin-top: 100px;
+        padding: 2rem 0 20rem 0;
+        width: 100%;
+    }
+    
+    .footerOutlets {
+        justify-content: space-between;
+        margin-top: 1rem;
+        width: 65%;
+    }
+    
+    .footerOutlets a img {
+        margin-right: 10px;
+    }
+}
+
+@media all and (min-width: 980px) {
+    .footerOutlets {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1rem;
+        width: 65%;
+    }
 }
