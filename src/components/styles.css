@@ -45,9 +45,9 @@ html {
 }
 
 header {
-    /* background-color: var(--light-grey); */
+    background-color: rgba(255, 255, 255, 0.8);
     overflow: hidden;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     z-index: 1;
 }
@@ -113,7 +113,7 @@ nav img {
 .hero {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0 0 0;
+    padding: 150px 0 0 0;
     flex-direction: column;
     width: 100%;
 }
@@ -535,9 +535,11 @@ footer {
     z-index: 3;
   }
   
-  .header img {
-      width: 100px;
-  }
+.header img {
+    width: 120px;
+    margin-top: 10px;
+    padding-left: 5%;
+}
   
   .navbar-title {
       font-size: 3rem;
@@ -665,6 +667,12 @@ footer {
           padding: 4rem 1rem;
       }
   
+      .header img {
+        width: 150px;
+        margin-top: 10px;
+        padding-left: 5%;
+      }
+
       .header .menu {
           clear: none;
           float: right;

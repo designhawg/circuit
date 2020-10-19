@@ -7,7 +7,10 @@ import "./styles.css"
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <input type="checkbox" className="menu-btn" id="menu-btn"/>
+    <a href="/" class="nav-icon">
+      <img alt="The Circuit logo" src={require('../images/circuit_block.png')} />
+    </a>
+  <input type="checkbox" className="menu-btn" id="menu-btn"/>
   <label className="menu-icon" for="menu-btn">    
   <span className="navicon"></span>
   </label>
