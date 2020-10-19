@@ -6,24 +6,20 @@ import "./styles.css"
 
 
 const Header = ({ siteTitle }) => (
-  <header
-    // style={{
-    //   background: `rebeccapurple`,
-    //   marginBottom: `1.45rem`,
-    // }}
-  >
-    <nav>
-      <div>
-        <img className="" src={require('../images/circuit_block.png')} />
-        <h1><span className="lightWeight">The</span>Circuit</h1>
-      </div>
-      <ul>
-        <li><Link to="/">English</Link> / <Link to="es">Español</Link></li>
-        <li><Link>About The Circuit</Link></li>
-      </ul>
-    </nav>
-  </header>
+  <header className="header">
+    <input type="checkbox" className="menu-btn" id="menu-btn"/>
+  <label className="menu-icon" for="menu-btn">    
+  <span className="navicon"></span>
+  </label>
+  <ul className="menu">
+    <li><a>English</a> / <a>Español</a></li>
+    <li><a>About</a></li>
+  </ul>
+  {/* <img className="" src={require('../images/circuit_block.png')} /> */}
+</header>
 )
+
+
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

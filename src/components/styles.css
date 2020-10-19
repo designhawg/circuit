@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 nav div {
-    display: flex;
+    /* display: flex; */
 }
 
 nav h1 {
@@ -527,3 +527,151 @@ footer {
         width: 65%;
     }
 }
+
+/* nav from circuit site */
+
+.header {
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .header img {
+      width: 100px;
+  }
+  
+  .navbar-title {
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: -1px;
+      align-self: center;
+      padding-left: 1rem;
+  }
+  
+  .header ul {
+      overflow: hidden;
+  }
+  
+  /* positioning of dropdown */
+  
+  .menu li {
+      align-self: center;
+      padding-top: 2rem;
+      padding-right: 1rem;
+      font-size: 1.6rem;
+      font-weight: 300;
+      text-align: right;
+  }
+  
+  .header a {
+      text-decoration: none;
+      color: #000;
+  }
+  
+  /* active link underline */
+  
+  .header .active, .header li a:hover {
+      padding-bottom: 3px;
+      border-bottom: 5px solid var(--primary-color)
+  }
+  
+  .header .menu {
+      clear: both;
+      max-height: 0;
+      padding: 0 5%;
+      transition: max-height .2s ease-out
+  }
+  
+  /* placement of icon */
+  
+  .header .menu-icon {
+      cursor: pointer;
+      display: inline-block;
+      float: right;
+      padding: 5rem 4rem 1rem;
+      position: relative;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  
+  /* size of bars */
+  
+  .header .menu-icon .navicon {
+      background: #333;
+      display: block;
+      height: 2px;
+      position: relative;
+      transition: background .2s ease-out;
+      width: 18px;
+  }
+  
+  /* construction of the bars */
+  
+  .header .menu-icon .navicon:after,.header .menu-icon .navicon:before {
+      background: #333;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+      top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+      top: -5px;
+  }
+  
+  /* hides checkbox trigger */
+  
+  .header .menu-btn {
+      display: none;
+  }
+  
+  .header .menu-btn:checked~.menu {
+      max-height: 300px;
+      padding-bottom: 10px;
+  }
+  
+  /* hides middle bar */  
+  
+  .header .menu-btn:checked~.menu-icon .navicon {
+      background: transparent;
+  }
+  
+  /* impacts transition from bars to X */
+  
+  .header .menu-btn:checked~.menu-icon .navicon:before {
+      transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked~.menu-icon .navicon:after {
+      transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after,.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before {
+      top: 0;
+  }
+  
+  /* displays nav instead of dropdown, responsive*/
+  
+  @media (min-width: 768px) {
+      .header li {
+          float:left;
+          padding: 4rem 1rem;
+      }
+  
+      .header .menu {
+          clear: none;
+          float: right;
+          max-height: none;
+      }
+  
+      .header .menu-icon {
+          display: none;
+      }
+  }
