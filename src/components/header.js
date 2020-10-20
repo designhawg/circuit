@@ -15,8 +15,9 @@ const Header = ({ siteTitle }) => (
   <span className="navicon"></span>
   </label>
   <ul className="menu">
-    <li><a>English</a> / <a>Español</a></li>
-    <li><a>About</a></li>
+    {/* <li><a>English</a> / <a>Español</a></li> */}
+    <li><a href="https://charges.thecircuit.cc/">Explore the data</a></li>
+    <li><a href="https://charges.thecircuit.cc/en/about/">About</a></li>
   </ul>
   {/* <img className="" src={require('../images/circuit_block.png')} /> */}
 </header>
