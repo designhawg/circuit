@@ -471,6 +471,7 @@ button:hover {
 footer {
     background-color: #fff;
     color: #000;
+    border-top: 10px solid #000;
     margin-top: 100px;
     padding: 2rem 0 0 0;
     width: 100%;
@@ -519,14 +520,13 @@ footer {
     footer {
         margin-top: 100px;
         width: 100%;
-        border-top: 10px solid #000;
     }
     
     .footer-contain {
         display: grid;
         grid-template-columns: 4fr 1fr;
         grid-gap: 20px;
-        padding: 0 0 0 0;
+        padding: 0 5%;
     }
 
     .footerOutlets {
@@ -551,6 +551,10 @@ footer {
         justify-content: space-between;
         margin-top: 1rem;
         width: 100%;
+    }
+
+    .footer-contain {
+        padding: 0 0;
     }
 }
 
