@@ -32,7 +32,7 @@ Gaining access and analyzing millions of records would have been impossible with
 
 <p><span className="bold">Reporters:</span> Jared Rutecki, Casey Toner (BGA); Josh McGhee (The Chicago Reporter); Abby Blachman, Alejandro Fernández Sanabria, Emily Hoerner (Injustice Watch)</p>
 
-<p><span className="bold">Data Analysis:</span> Jean Cochrane, Hannah Cushman Garland, Forest Gregg, Bea Malsky, Jasmine Mithani (DataMade); Seiya Kawashima, Trina Reynolds-Tyler, Leah Castleberry (Harris)</p>
+<p><span className="bold">Data Analysis:</span> Leah Castleberry (Harris), Jean Cochrane, Hannah Cushman Garland, David Eads, Forest Gregg, Bea Malsky, Jasmine Mithani (DataMade); Seiya Kawashima, Trina Reynolds-Tyler</p>
 
 <p><span className="bold">Engagement:</span> Charles Preston (Injustice Watch); Starlyn Matheny, Mia Sato, Olivia Obineme (BGA); Asraa Mustafa (The Chicago Reporter)</p>
 
@@ -42,7 +42,7 @@ Gaining access and analyzing millions of records would have been impossible with
 
 <p><span className="bold">Translators:</span> Gisela Orozco, Jorge Mederos</p>
 
-<p><span className="bold">Editors:</span> John Chase, David Kidwell (BGA); Adeshina Emmanuel, Jonah Newman, Rick Tulsky (Injustice Watch); Matt O’Connor; Fernando Diaz, David Eads, Matt Kiefer (The Chicago Reporter)</p>
+<p><span className="bold">Editors:</span> John Chase, David Kidwell (BGA); Adeshina Emmanuel, Jonah Newman, Rick Tulsky (Injustice Watch); Matt O’Connor; Fernando Diaz, Matt Kiefer (The Chicago Reporter)</p>
 
 <p><span className="bold">Development/Project Coordinators:</span> Kate Walsh (BGA); Amanda Miley (Injustice Watch)</p>
 
