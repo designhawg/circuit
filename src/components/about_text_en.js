@@ -53,6 +53,23 @@ Gaining access and analyzing millions of records would have been impossible with
 
 <p>Injustice Watch hired the Chicago civic technology company DataMade to write a computer program to automatically access and record the case dockets and case management information for criminal cases. A case docket is a record of the motions, rulings and similar events in a case. The case management information includes details about the defendant, arresting agency and status of the case.
 </p>
+
+<p>The program ran between April and August 2019 at nights and weekends to ensure that this work did not interfere with other members of the public who were looking up cases. This initial extract was paid for by the Chicago Data Collaborative and Injustice Watch.</p>
+
+<p>After we secured this initial data, we formed The Circuit collaborative to secure additional funds to organize and standardize the data and to write similar extraction programs for the other divisions of the court.</p>
+
+<p>For each criminal case, DataMade’s program produced two files of text — one for the case docket and the second for case management information. DataMade wrote additional programs to extract the information from those text files into tables of data. These tables were loaded into PostgreSQL, an open source, relational database in which journalists could query the data.</p>
+
+<p>Once in an organized format, journalists from The Circuit, DataMade staff and students from the University of Chicago’s Harris School of Public Policy documented what the data meant and how to use it.</p>
+
+<p>The data had many data quality problems that The Circuit had to overcome: information about charges were not standardized; race, ethnicity and gender information was often missing; events were not always recorded in the right order in the dockets; motions and rulings that must have been made were sometimes missing; and typos were common in many fields. Preparing and standardizing the data has taken eight months, and there remains work to do.</p>
+
+
+
+
+
+
+
     </div>
     <div className="rail"></div>
 </section>
