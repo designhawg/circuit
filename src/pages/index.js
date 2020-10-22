@@ -1,20 +1,19 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import HeaderEN from "../components/index_header"
+import Hero from "../components/hero"
+import Footer from "../components/footer"
 import SEO from "../components/seo"
-import Promo from "../components/promo_teams"
-import Newsletter from "../components/newsletter_wide"
-import Feature from "../components/feature_story"
-import SecondaryPromo from "../components/promo_story"
 
 import "../components/styles.css"
 
 
 const IndexPage = ({ data }) => (
 
-  <Layout>
-    {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
+  <div>
+    <HeaderEN />
+    <Hero />
     <SEO title="Home" />
         {data.allRestApi6046887E0770Da7B870275652C7D60F0CircuitCmsHome.nodes[0].home.map((home) => {
           return (
@@ -30,7 +29,8 @@ const IndexPage = ({ data }) => (
             </section>
           )
         })}
-  </Layout>
+    <Footer />
+  </div>
 )
 
 export const query = graphql`

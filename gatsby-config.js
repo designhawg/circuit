@@ -15,6 +15,19 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown`,
+        path: `${__dirname}/src/markdown`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-sharp`
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+    },
+    {
       resolve: `gatsby-source-rest-api`,
       options: {
         endpoints: [
@@ -22,8 +35,12 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

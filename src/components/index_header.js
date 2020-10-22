@@ -1,11 +1,10 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
 import "./styles.css"
 
 
-const AboutHeader = ({ siteTitle }) => (
+const HeaderEN = ({ siteTitle }) => (
   <header className="header">
     <a href="/" class="nav-icon">
       <img alt="The Circuit logo" src={require('../images/circuit_block.png')} />
@@ -17,10 +16,11 @@ const AboutHeader = ({ siteTitle }) => (
   <ul className="menu">
     <li><a href="https://charges.thecircuit.cc/">Explore the data</a></li>
     <li><a href="/about_en">About</a></li>
-    <li><a href="/about_en">English</a> / <a href="/about_es">Español</a></li>
+    <li><a href="/">English</a> / <a href="/">Español</a></li>
   </ul>
   {/* <img className="" src={require('../images/circuit_block.png')} /> */}
 </header>
 )
 
-export default AboutHeader
+
+export default HeaderEN
