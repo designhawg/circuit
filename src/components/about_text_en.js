@@ -30,7 +30,7 @@ Gaining access and analyzing millions of records would have been impossible with
 <h3>Who We Are</h3>
 <p>The Circuit is an ongoing collaborative journalism project by Chicago nonprofit news organizations — the Better Government Association, The Chicago Reporter and Injustice Watch — in partnership with the civic tech company DataMade and with the assistance of researchers from the University of Chicago’s Harris School of Public Policy. We developed a logo for this project, which is an image of circuit board lines overlaid atop an image of the Leighton Criminal Court Building at 26th Street and California Avenue. This work was funded through a grant from the Robert R. McCormick Foundation.</p>
 
-<p><span className="bold">Reporters:</span> Jared Rutecki, Casey Toner (BGA); Josh McGhee (The Chicago Reporter); Abigail Blachman, Alejandro Fernández Sanabria, Emily Hoerner (Injustice Watch)</p>
+<p><span className="bold">Reporters:</span> Jared Rutecki, Casey Toner (BGA); Josh McGhee (The Chicago Reporter); Abby Blachman, Alejandro Fernández Sanabria, Emily Hoerner (Injustice Watch)</p>
 
 <p><span className="bold">Data Analysis:</span> Jean Cochrane, Hannah Cushman Garland, Forest Gregg, Bea Malsky, Jasmine Mithani (DataMade); Seiya Kawashima, Trina Reynolds-Tyler, Leah Castleberry (Harris)</p>
 
