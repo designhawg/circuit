@@ -12,7 +12,7 @@ const AboutEN = ({ siteTitle }) => (
 
 <p>The Circuit is an unparalleled collaborative journalism investigation that explores and exposes decades of overlooked data and their connecting patterns buried in the files of the Cook County courts.</p>
 
-<p>Three Chicago-based news organizations — the Better Government Association, The Chicago Reporter and Injustice Watch — joined with civic tech consultants DataMade and spent more than a year gathering, organizing and analyzing more than 30 years of data from every division of the Cook County Circuit Court system. Our work was assisted by researchers from the University of Chicago’s Harris School of Public Policy.</p>
+<p>Three Chicago-based news organizations — the Better Government Association, The Chicago Reporter and Injustice Watch — joined with civic tech consultants DataMade and spent more than a year gathering, organizing and analyzing more than 30 years of data from every division of the Cook County Circuit Court system. Our work was assisted by researchers from the Center for Survey Methodology at the University of Chicago’s Harris School of Public Policy.</p>
 
 <p>We joined forces to conduct a first-of-its-kind examination of how the Cook County court system works. We aim to expose how different defendants charged with similar crimes are treated, dissect trends in how prosecutors have charged citizens, and study how well defendants have been represented by counsel. We will scrutinize systemic inequities and reveal biases in the fabric of the legal system that have been suspected for generations but never definitively proven.</p>
 
@@ -28,7 +28,7 @@ Gaining access and analyzing millions of records would have been impossible with
 <p>And we’ve only just begun.</p>
 
 <h3>Who We Are</h3>
-<p>The Circuit is an ongoing collaborative journalism project by Chicago nonprofit news organizations — the Better Government Association, The Chicago Reporter and Injustice Watch — in partnership with the civic tech company DataMade and with the assistance of researchers from the University of Chicago’s Harris School of Public Policy. We developed a logo for this project, which is an image of circuit board lines overlaid atop an image of the Leighton Criminal Court Building at 26th Street and California Avenue. This work was funded through a grant from the Robert R. McCormick Foundation.</p>
+<p>The Circuit is an ongoing collaborative journalism project by Chicago nonprofit news organizations — the Better Government Association, The Chicago Reporter and Injustice Watch — in partnership with the civic tech company DataMade and with the assistance of researchers from the Center for Survey Methodology at the University of Chicago’s Harris School of Public Policy. We developed a logo for this project, which is an image of circuit board lines overlaid atop an image of the Leighton Criminal Court Building at 26th Street and California Avenue. This work was funded through a grant from the Robert R. McCormick Foundation.</p>
 
 <p><span className="bold">Reporters:</span> Jared Rutecki, Casey Toner (BGA); Josh McGhee (The Chicago Reporter); Abby Blachmann, Alejandro Fernández Sanabria, Emily Hoerner (Injustice Watch)</p>
 
