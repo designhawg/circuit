@@ -9,7 +9,7 @@ const AboutES = ({ siteTitle }) => (
 
 <p>The Circuit (El Circuito) es una investigación de periodismo colaborativo incomparable que explora y expone décadas de datos pasados ​​por alto y sus patrones de conexión enterrados en los archivos del Circuito de Cortes del Condado de Cook.</p>
 
-<p>Tres organizaciones noticiosas con sede en Chicago - Better Government Association, The Chicago Reporter e Injustice Watch - se unieron a los consultores de tecnología cívica DataMade y pasaron más de un año recopilando, organizando y analizando más de 30 años de datos de todas las divisiones del Circuito de Cortes del Condado de Cook. Nuestro trabajo fue asistido por investigadores de la Escuela Harris de Políticas Públicas de la Universidad de Chicago.</p>
+<p>Tres organizaciones noticiosas con sede en Chicago - Better Government Association, The Chicago Reporter e Injustice Watch - se unieron a los consultores de tecnología cívica DataMade y pasaron más de un año recopilando, organizando y analizando más de 30 años de datos de todas las divisiones del Circuito de Cortes del Condado de Cook. Nuestro trabajo fue asistido por investigadores de la Center for Survey Methodology de la Harris School of Public Policy de la Universidad de Chicago.</p>
 
 <p>Unimos fuerzas para realizar un examen único en su tipo sobre cómo funciona el sistema judicial del Condado de Cook. Nuestro objetivo es exponer cómo se trata a los diferentes acusados ​​de delitos similares, analizar las tendencias sobre cómo los fiscales han acusado a los ciudadanos y estudiar qué tan bien los acusados ​​han sido representados por abogados. Examinaremos las inequidades sistémicas y revelaremos sesgos en la estructura del sistema legal que se han sospechado durante generaciones, pero nunca se han probado definitivamente.</p>
 
@@ -25,7 +25,7 @@ Obtener acceso y analizar millones de registros hubiera sido imposible sin esta 
 <p>Y acabamos de empezar.</p>
 
 <h3>Quienes somos</h3>
-<p>The Circuit es un proyecto de periodismo colaborativo en curso de organizaciones de noticias sin fines de lucro de Chicago, Better Government Association, The Chicago Reporter e Injustice Watch, en asociación con la empresa de tecnología cívica DataMade y con la ayuda de investigadores de la Escuela Harris de Políticas Públicas de la Universidad de Chicago. . Desarrollamos un logotipo para este proyecto, que es una imagen de una tarjeta de circuitos superpuesta sobre una imagen del edificio Leighton, sede del Circuito de Cortes en la calle 26 y la avenida California. Este trabajo fue financiado con una subvención de la Fundación Robert R. McCormick.</p>
+<p>The Circuit es un proyecto de periodismo colaborativo en curso de organizaciones de noticias sin fines de lucro de Chicago, Better Government Association, The Chicago Reporter e Injustice Watch, en asociación con la empresa de tecnología cívica DataMade y con la ayuda de investigadores de la Center for Survey Methodology de la Harris School of Public Policy de la Universidad de Chicago. Desarrollamos un logotipo para este proyecto, que es una imagen de una tarjeta de circuitos superpuesta sobre una imagen del edificio Leighton, sede del Circuito de Cortes en la calle 26 y la avenida California. Este trabajo fue financiado con una subvención de la Fundación Robert R. McCormick.</p>
 
 <p><span className="bold">Reporteros:</span> Jared Rutecki, Casey Toner (BGA); Josh McGhee (The Chicago Reporter); Abigail Blachmann, Alejandro Fernández, Emily Hoerner (Injustice Watch)</p>
 
