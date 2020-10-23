@@ -34,7 +34,7 @@ Gaining access and analyzing millions of records would have been impossible with
 
 <p><span className="bold">Data Analysis:</span> Jean Cochrane, Hannah Cushman, Forest Gregg, Bea Malsky, Jasmine Mithani (DataMade); Seiya Kawashima, Trina Reynolds-Tyler, Lea Washington (Harris); David Eads (The Chicago Reporter)</p>
 
-<p><span className="bold">Engagement:</span> Charles Preston (Injustice Watch); Starlyn Matheny, Mia Sato (BGA); Asraa Mustafa (The Chicago Reporter)</p>
+<p><span className="bold">Engagement:</span> Charles Preston (Injustice Watch); Starlyn Matheny, Mia Sato, Olivia Obineme, Toni Shears (BGA); Asraa Mustafa (The Chicago Reporter) </p>
 
 <p><span className="bold">Designer:</span> Chris Courtney</p>
 
