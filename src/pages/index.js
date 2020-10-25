@@ -12,9 +12,12 @@ import "../components/styles.css"
 const IndexPage = ({ data }) => (
 
   <div>
+    <SEO title="The Circuit" 
+      keywords={[`Cook County`, `Circuit Court`, `Data Journalism`]} 
+      image="https://circuitchicago.s3.us-east-2.amazonaws.com/OG-Datacard3.jpg"
+    />
     <HeaderEN />
     <Hero />
-    <SEO title="Home" />
         {data.allRestApi6046887E0770Da7B870275652C7D60F0CircuitCmsHome.nodes[0].home.map((home) => {
           return (
             <section className="feature-story">

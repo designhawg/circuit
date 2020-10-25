@@ -12,7 +12,10 @@ import "../components/styles.css"
 const IndexPage = ({ data }) => (
 
   <div>
-          <SEO title="Home" />
+    <SEO title="About The Circuit" 
+      keywords={[`Cook County`, `Circuit Court`, `Data Journalism`]} 
+      image="https://circuitchicago.s3.us-east-2.amazonaws.com/OG-Datacard3.jpg"
+    />
 
     <AboutHeader />
     <AboutEN />
