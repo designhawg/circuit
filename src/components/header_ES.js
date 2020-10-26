@@ -17,6 +17,8 @@ const AboutHeaderES = ({ siteTitle }) => (
   <ul className="menu">
     <li><a href="https://charges.thecircuit.cc/es/">Explorar los datos</a></li>
     <li><a href="/about_es">Quienes Somos</a></li>
+    <li><a href="/about_en">English</a> / <a href="/about_es">Español</a></li>
+
   </ul>
   {/* <img className="" src={require('../images/circuit_block.png')} /> */}
 </header>

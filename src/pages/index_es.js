@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import HeaderES from "../components/header_ES"
+import HeaderES from "../components/index_header_es"
 import HeroES from "../components/hero_ES"
 import Footer from "../components/footer_ES"
 import SEO from "../components/seo"
