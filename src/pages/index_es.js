@@ -10,11 +10,11 @@ import "../components/styles.css"
 
 
 const IndexPage = ({ data }) => (
-
   <div>
     <SEO title="The Circuit" 
-      keywords={[`Cook County`, `Circuit Court`, `Data Journalism`]} 
+      keywords={[`Condado de Cook`, `Circuito de Cortes`, `datos para investigar`]} 
       image="https://circuitchicago.s3.us-east-2.amazonaws.com/OG-Datacard3.jpg"
+      description="Una colaboración basada en datos para investigar y revelar cómo funciona el Circuito de Cortes del Condado de Cook."
     />
     <HeaderES />
     <HeroES />
