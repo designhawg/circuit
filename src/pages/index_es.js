@@ -1,9 +1,9 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import HeaderEN from "../components/index_header"
-import Hero from "../components/hero"
-import Footer from "../components/footer"
+import HeaderES from "../components/header_ES"
+import HeroES from "../components/hero_ES"
+import Footer from "../components/footer_ES"
 import SEO from "../components/seo"
 
 import "../components/styles.css"
@@ -16,8 +16,8 @@ const IndexPage = ({ data }) => (
       keywords={[`Cook County`, `Circuit Court`, `Data Journalism`]} 
       image="https://circuitchicago.s3.us-east-2.amazonaws.com/OG-Datacard3.jpg"
     />
-    <HeaderEN />
-    <Hero />
+    <HeaderES />
+    <HeroES />
         {data.allRestApi6046887E0770Da7B870275652C7D60F0CircuitCmsHome.nodes[0].home.map((home) => {
           return (
             <section className="feature-story">
