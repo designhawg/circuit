@@ -52,6 +52,10 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `https://circuitchicago.s3.us-east-2.amazonaws.com/OG-Datacard3.jpg`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },

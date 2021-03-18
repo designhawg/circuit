@@ -15,6 +15,7 @@ const IndexPage = ({ data }) => (
     <SEO title="The Circuit" 
       keywords={[`Cook County`, `Circuit Court`, `Data Journalism`]} 
       image="https://circuitchicago.s3.us-east-2.amazonaws.com/OG-Datacard3.jpg"
+      property="og:image" content="https://circuitchicago.s3.us-east-2.amazonaws.com/OG-Datacard3.jpg"
     />
     <HeaderEN />
     <Hero />
