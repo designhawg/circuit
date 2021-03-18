@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `https://circuitchicago.s3.us-east-2.amazonaws.com/OG-Datacard3.jpg`,
+          content: `https://circuitchicago.s3.us-east-2.amazonaws.com/ios-512.png`,
         },
         {
           name: `twitter:card`,
