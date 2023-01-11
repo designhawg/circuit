@@ -15,7 +15,7 @@
     "gatsby-plugin-styled-components": "^3.3.14",
     "gatsby-source-filesystem": "^2.3.35",
     "gatsby-source-rest-api": "^0.2.3",
-    "gatsby-transformer-remark": "^2.8.45",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.4.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
